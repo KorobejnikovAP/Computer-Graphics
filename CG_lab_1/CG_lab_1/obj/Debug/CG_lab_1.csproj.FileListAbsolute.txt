@@ -1,0 +1,10 @@
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\bin\Debug\CG_lab_1.exe.config
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\bin\Debug\CG_lab_1.exe
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\bin\Debug\CG_lab_1.pdb
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.csprojAssemblyReference.cache
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.Form1.resources
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.Properties.Resources.resources
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.csproj.GenerateResource.cache
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.csproj.CoreCompileInputs.cache
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.exe
+C:\Users\Саша\Documents\Компьютерная графика\CG_lab_1\CG_lab_1\obj\Debug\CG_lab_1.pdb
