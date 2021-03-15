@@ -13,13 +13,16 @@ namespace CG_lab_1
 {
     public partial class Form1 : Form
     {
+        Bitmap image;
+        Stack<Bitmap> bitmaps;
+        Form2 StructElem;
         public Form1()
         {
             InitializeComponent();
+            StructElem = new Form2();
+            bitmaps = new Stack<Bitmap>();
         }
 
-        Bitmap image;
-        Stack<Bitmap> bitmaps = new Stack<Bitmap>();
        
         private void ОткрытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -166,16 +169,40 @@ namespace CG_lab_1
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
-        private void СужениеToolStripMenuItem_Click(object sender, EventArgs e)
+      
+        private void СужениеToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Filters filter  = new Erosion();
+            Filters filter = new Erosion(StructElem.mask);
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
-        private void РасширениеToolStripMenuItem_Click(object sender, EventArgs e)
+        private void РасширениеToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Filters filter = new Dilation();
+            Filters filter = new Dilation(StructElem.mask);
             backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void ОткрытиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Opening(StructElem.mask);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void ЗакрытиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Closing(StructElem.mask);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void GradToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Grad(StructElem.mask);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void ЗадатьСтруктурныйЭлементToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StructElem.Show();
         }
     }
 }
