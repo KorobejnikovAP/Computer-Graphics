@@ -204,5 +204,6 @@ namespace CG_lab_1
         {
             StructElem.Show();
         }
+
     }
 }
