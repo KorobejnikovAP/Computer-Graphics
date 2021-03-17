@@ -205,5 +205,10 @@ namespace CG_lab_1
             StructElem.Show();
         }
 
+        private void МедианныйФильтрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Median(1);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
