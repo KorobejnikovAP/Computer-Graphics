@@ -74,6 +74,7 @@
     <Compile Include="Opening.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pruit.cs" />
     <Compile Include="ReflectorFilter.cs" />
     <Compile Include="SepiaFilter.cs" />
     <Compile Include="SharpnessFilter.cs" />
